@@ -1645,7 +1645,7 @@ struct TDEEView: View {
     var projectedLbs: Double { Double(weeklyDeficit) / 3500.0 }
 
     var body: some View {
-        ZStack {
+        ZStack(alignment: .bottom) {
             Theme.bg.ignoresSafeArea()
             ScrollView {
                 VStack(spacing: 22) {
@@ -1665,6 +1665,8 @@ struct TDEEView: View {
 
                     tdeeBigCard
 
+                    deficitCard
+
                     SegmentedPicker(
                         title: "SEX",
                         options: Sex.allCases.map { ($0.rawValue, $0.label) },
@@ -1681,12 +1683,24 @@ struct TDEEView: View {
                                      format: { String(format: "%.0f", $0) })
 
                     activityPicker
-
-                    deficitCard
                 }
                 .padding(.horizontal, 18)
-                .padding(.bottom, 110)
+                .padding(.bottom, 180)
             }
+
+            Color.clear
+                .frame(height: 20)
+                .padding(.bottom, 120)
+                .background(
+                    LinearGradient(stops: [
+                        .init(color: Theme.bg.opacity(0), location: 0.0),
+                        .init(color: Theme.bg, location: 0.15),
+                        .init(color: Theme.bg, location: 1.0)
+                    ], startPoint: .top, endPoint: .bottom)
+                        .allowsHitTesting(false)
+                        .ignoresSafeArea(edges: .bottom)
+                )
+                .allowsHitTesting(false)
         }
     }
 
