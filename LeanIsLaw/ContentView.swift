@@ -339,6 +339,7 @@ struct ContentView: View {
     @StateObject private var store = Store()
     @State private var tab: Int = 0
     @State private var keyboardUp: Bool = false
+    @State private var dayOpen: Bool = false
     @State private var dragOffset: CGFloat = 0
 
     private let tabCount = 3
@@ -348,7 +349,7 @@ struct ContentView: View {
             let w = geo.size.width
             ZStack(alignment: .bottom) {
                 HStack(spacing: 0) {
-                    TodayView(store: store, keyboardUp: $keyboardUp)
+                    TodayView(store: store, keyboardUp: $keyboardUp, dayOpen: $dayOpen)
                         .frame(width: w)
                     CalendarView(store: store)
                         .frame(width: w)
@@ -384,7 +385,7 @@ struct ContentView: View {
                         }
                 )
 
-                if !keyboardUp {
+                if !keyboardUp && !dayOpen {
                     TabBar(selection: $tab)
                         .transition(.move(edge: .bottom).combined(with: .opacity))
                 }
@@ -446,6 +447,8 @@ struct TabBar: View {
 struct TodayView: View {
     @ObservedObject var store: Store
     @Binding var keyboardUp: Bool
+    @Binding var dayOpen: Bool
+    @State private var path = NavigationPath()
     @State private var caloriesText = ""
     @State private var proteinText = ""
     @State private var carbsText = ""
@@ -458,7 +461,7 @@ struct TodayView: View {
     @Namespace private var dayNS
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             content
                 .navigationDestination(for: Date.self) { date in
                     DayEditor(date: date, store: store)
@@ -466,6 +469,11 @@ struct TodayView: View {
                         .toolbar(.hidden, for: .navigationBar)
                 }
                 .toolbar(.hidden, for: .navigationBar)
+        }
+        .onChange(of: path.count) { _, n in
+            withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
+                dayOpen = n > 0
+            }
         }
     }
 
