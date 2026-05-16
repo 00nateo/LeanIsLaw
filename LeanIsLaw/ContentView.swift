@@ -385,10 +385,12 @@ struct ContentView: View {
                         }
                 )
 
-                if !keyboardUp && !dayOpen {
-                    TabBar(selection: $tab)
-                        .transition(.move(edge: .bottom).combined(with: .opacity))
-                }
+                TabBar(selection: $tab)
+                    .offset(y: (keyboardUp || dayOpen) ? 180 : 0)
+                    .opacity((keyboardUp || dayOpen) ? 0 : 1)
+                    .allowsHitTesting(!keyboardUp && !dayOpen)
+                    .animation(.snappy(duration: 0.22, extraBounce: 0.08), value: dayOpen)
+                    .animation(.snappy(duration: 0.22, extraBounce: 0.08), value: keyboardUp)
             }
         }
         .preferredColorScheme(.dark)
@@ -471,9 +473,7 @@ struct TodayView: View {
                 .toolbar(.hidden, for: .navigationBar)
         }
         .onChange(of: path.count) { _, n in
-            withAnimation(.spring(response: 0.4, dampingFraction: 0.85)) {
-                dayOpen = n > 0
-            }
+            dayOpen = n > 0
         }
     }
 
@@ -1511,35 +1511,35 @@ struct WeekCelebration: View {
         VStack(spacing: 10) {
             Divider().background(Color.white.opacity(0.08))
             if week.isCurrent {
-                celebrationBlock(emoji: "⏳", tint: Theme.dim,
+                celebrationBlock(icon: "hourglass", tint: Theme.dim,
                                  title: "Week still cooking",
                                  message: "Keep stacking those wins, you got this")
             } else if week.total == 0 {
-                celebrationBlock(emoji: "👻", tint: Theme.faint,
+                celebrationBlock(icon: "tray", tint: Theme.faint,
                                  title: "No data logged",
                                  message: "Quiet week — that's okay")
             } else if week.success {
                 let diff = week.goal - week.total
-                celebrationBlock(emoji: emoji(for: diff),
+                celebrationBlock(icon: icon(for: diff),
                                  tint: Theme.mint,
                                  title: praise(for: diff),
                                  message: "\(diff) kcal under goal · ~\(format(lbs: Double(diff) / 3500.0)) lbs")
             } else {
                 let over = week.total - week.goal
-                celebrationBlock(emoji: "💪", tint: Theme.accent,
+                celebrationBlock(icon: "bolt.fill", tint: Theme.accent,
                                  title: "Tough week",
                                  message: "\(over) over · reset and crush next week")
             }
         }
     }
 
-    func emoji(for diff: Int) -> String {
+    func icon(for diff: Int) -> String {
         switch diff {
-        case ..<500: return "✅"
-        case ..<1500: return "🔥"
-        case ..<3000: return "🚀"
-        case ..<5000: return "👑"
-        default: return "🏆"
+        case ..<500:  return "checkmark.seal.fill"
+        case ..<1500: return "flame.fill"
+        case ..<3000: return "star.fill"
+        case ..<5000: return "crown.fill"
+        default:      return "trophy.fill"
         }
     }
     func praise(for diff: Int) -> String {
@@ -1553,10 +1553,13 @@ struct WeekCelebration: View {
     }
     func format(lbs: Double) -> String { String(format: "%.2f", lbs) }
 
-    func celebrationBlock(emoji: String, tint: Color, title: String, message: String) -> some View {
+    func celebrationBlock(icon: String, tint: Color, title: String, message: String) -> some View {
         HStack(spacing: 14) {
-            Text(emoji).font(.system(size: 42))
-                .shadow(color: tint.opacity(0.5), radius: 10)
+            Image(systemName: icon)
+                .font(.system(size: 30, weight: .heavy))
+                .foregroundStyle(tint)
+                .frame(width: 46, height: 46)
+                .shadow(color: tint.opacity(0.55), radius: 8)
             VStack(alignment: .leading, spacing: 3) {
                 Text(title)
                     .font(.system(size: 16, weight: .black, design: .rounded))
@@ -1814,8 +1817,11 @@ struct TDEEView: View {
         let weeks = 4
         let projection4 = abs(projectedLbs) * Double(weeks)
         return HStack(spacing: 14) {
-            Text(positive ? "📉" : "📈")
-                .font(.system(size: 38))
+            Image(systemName: positive ? "chart.line.downtrend.xyaxis" : "chart.line.uptrend.xyaxis")
+                .font(.system(size: 30, weight: .heavy))
+                .foregroundStyle(tint)
+                .frame(width: 46, height: 46)
+                .shadow(color: tint.opacity(0.55), radius: 8)
             VStack(alignment: .leading, spacing: 3) {
                 Text(positive ? "PROJECTED LOSS" : "PROJECTED GAIN")
                     .font(.system(size: 10, weight: .heavy, design: .monospaced))
