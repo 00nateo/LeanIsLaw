@@ -51,6 +51,13 @@ enum Theme {
     static let faint       = Color.white.opacity(0.35)
 }
 
+// MARK: - Neumorphic primitives (adapted from costachung/neumorphic)
+//
+// Soft outer shadow: dual offset shadows (dark bottom-right, light top-left)
+// over a subtle linear-gradient surface — the raised neumorphic look.
+// Soft inner shadow: simulated inner shadow used for "pressed" / inset
+// surfaces (text fields, stat tiles, recessed chips).
+
 struct Neumorph: ViewModifier {
     var radius: CGFloat = 22
     var pressed: Bool = false
@@ -58,17 +65,162 @@ struct Neumorph: ViewModifier {
         content
             .background(
                 RoundedRectangle(cornerRadius: radius, style: .continuous)
-                    .fill(Theme.surface)
-                    .shadow(color: .black.opacity(pressed ? 0.0 : 0.6), radius: 10, x: 8, y: 8)
-                    .shadow(color: Color.white.opacity(pressed ? 0.0 : 0.04), radius: 8, x: -6, y: -6)
+                    .fill(
+                        LinearGradient(
+                            colors: [Theme.surfaceHi, Theme.surface],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing)
+                    )
+                    .shadow(color: .black.opacity(pressed ? 0.0 : 0.7), radius: 12, x: 9, y: 9)
+                    .shadow(color: Color.white.opacity(pressed ? 0.0 : 0.05), radius: 9, x: -7, y: -7)
             )
             .overlay(
                 RoundedRectangle(cornerRadius: radius, style: .continuous)
-                    .strokeBorder(Color.white.opacity(0.04), lineWidth: 1)
+                    .strokeBorder(
+                        LinearGradient(
+                            colors: [Color.white.opacity(0.08), Color.clear],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing),
+                        lineWidth: 1)
             )
     }
 }
-extension View { func neumorph(_ r: CGFloat = 22) -> some View { modifier(Neumorph(radius: r)) } }
+
+struct SoftInset: ViewModifier {
+    var radius: CGFloat = 16
+    var fill: Color = Theme.inset
+    func body(content: Content) -> some View {
+        content
+            .background(
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .fill(
+                        LinearGradient(
+                            colors: [fill, Theme.surface.opacity(0.85)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing)
+                    )
+            )
+            .overlay( // dark inner shadow, top-left
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .stroke(Color.black.opacity(0.85), lineWidth: 3)
+                    .blur(radius: 3)
+                    .offset(x: 2, y: 2)
+                    .mask(RoundedRectangle(cornerRadius: radius, style: .continuous)
+                        .fill(LinearGradient(colors: [.black, .clear],
+                                             startPoint: .topLeading,
+                                             endPoint: .bottomTrailing)))
+            )
+            .overlay( // light inner shadow, bottom-right
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .stroke(Color.white.opacity(0.07), lineWidth: 2)
+                    .blur(radius: 2)
+                    .offset(x: -1, y: -1)
+                    .mask(RoundedRectangle(cornerRadius: radius, style: .continuous)
+                        .fill(LinearGradient(colors: [.clear, .black],
+                                             startPoint: .topLeading,
+                                             endPoint: .bottomTrailing)))
+            )
+            .clipShape(RoundedRectangle(cornerRadius: radius, style: .continuous))
+    }
+}
+
+struct SoftInsetCircle: ViewModifier {
+    var fill: Color = Theme.inset
+    func body(content: Content) -> some View {
+        content
+            .background(
+                Circle().fill(
+                    LinearGradient(colors: [fill, Theme.surface.opacity(0.85)],
+                                   startPoint: .topLeading,
+                                   endPoint: .bottomTrailing))
+            )
+            .overlay(
+                Circle()
+                    .stroke(Color.black.opacity(0.8), lineWidth: 3)
+                    .blur(radius: 2.5)
+                    .offset(x: 1.5, y: 1.5)
+                    .mask(Circle().fill(LinearGradient(colors: [.black, .clear],
+                                                      startPoint: .topLeading,
+                                                      endPoint: .bottomTrailing)))
+            )
+            .overlay(
+                Circle()
+                    .stroke(Color.white.opacity(0.07), lineWidth: 1.5)
+                    .blur(radius: 1.5)
+                    .offset(x: -1, y: -1)
+                    .mask(Circle().fill(LinearGradient(colors: [.clear, .black],
+                                                      startPoint: .topLeading,
+                                                      endPoint: .bottomTrailing)))
+            )
+            .clipShape(Circle())
+    }
+}
+
+struct SoftAccent: ViewModifier {
+    var radius: CGFloat = 16
+    var tint: Color = Theme.accent
+    func body(content: Content) -> some View {
+        content
+            .background(
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .fill(LinearGradient(colors: [Theme.accentGlow, tint],
+                                         startPoint: .topLeading,
+                                         endPoint: .bottomTrailing))
+                    .shadow(color: .black.opacity(0.55), radius: 10, x: 7, y: 7)
+                    .shadow(color: tint.opacity(0.45), radius: 12, x: -4, y: -4)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .strokeBorder(
+                        LinearGradient(colors: [Color.white.opacity(0.35), Color.clear],
+                                       startPoint: .topLeading,
+                                       endPoint: .bottomTrailing),
+                        lineWidth: 1)
+            )
+    }
+}
+
+extension View {
+    func neumorph(_ r: CGFloat = 22) -> some View { modifier(Neumorph(radius: r)) }
+    func softInset(_ r: CGFloat = 16, fill: Color = Theme.inset) -> some View {
+        modifier(SoftInset(radius: r, fill: fill))
+    }
+    func softInsetCircle(fill: Color = Theme.inset) -> some View {
+        modifier(SoftInsetCircle(fill: fill))
+    }
+    func softAccent(_ r: CGFloat = 16, tint: Color = Theme.accent) -> some View {
+        modifier(SoftAccent(radius: r, tint: tint))
+    }
+}
+
+// A button style that "presses" the soft outer shadow into a soft inner shadow.
+struct SoftButtonStyle<S: InsettableShape>: ButtonStyle {
+    var shape: S
+    var radius: CGFloat = 16
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .background(
+                ZStack {
+                    shape.fill(
+                        LinearGradient(colors: [Theme.surfaceHi, Theme.surface],
+                                       startPoint: .topLeading,
+                                       endPoint: .bottomTrailing))
+                    if configuration.isPressed {
+                        shape.fill(Theme.inset.opacity(0.6))
+                    }
+                }
+                .shadow(color: .black.opacity(configuration.isPressed ? 0 : 0.55),
+                        radius: 8, x: 6, y: 6)
+                .shadow(color: Color.white.opacity(configuration.isPressed ? 0 : 0.05),
+                        radius: 6, x: -4, y: -4)
+            )
+            .overlay(
+                shape.strokeBorder(Color.white.opacity(0.06), lineWidth: 1)
+            )
+            .scaleEffect(configuration.isPressed ? 0.97 : 1.0)
+            .animation(.spring(response: 0.25, dampingFraction: 0.7), value: configuration.isPressed)
+    }
+}
 
 // MARK: - Model
 
@@ -222,10 +374,10 @@ struct ContentView: View {
                             withAnimation(.spring(response: 0.19, dampingFraction: 0.78)) { // SWIPE-COMMIT SPEED
                                 if predicted < -threshold, tab < tabCount - 1 {
                                     tab += 1
-                                    Haptics.thud()
+                                    Haptics.bump()
                                 } else if predicted > threshold, tab > 0 {
                                     tab -= 1
-                                    Haptics.thud()
+                                    Haptics.bump()
                                 }
                                 dragOffset = 0
                             }
@@ -260,7 +412,7 @@ struct TabBar: View {
         HStack(spacing: 6) {
             ForEach(Array(items.enumerated()), id: \.offset) { i, item in
                 Button {
-                    Haptics.thud()
+                    Haptics.bump()
                     withAnimation(.spring(response: 0.19, dampingFraction: 0.78)) { selection = i } // TAB TAP SPEED
                 } label: {
                     VStack(spacing: 4) {
@@ -276,9 +428,7 @@ struct TabBar: View {
                     .background(
                         ZStack {
                             if selection == i {
-                                RoundedRectangle(cornerRadius: 14, style: .continuous)
-                                    .fill(Theme.accent)
-                                    .shadow(color: Theme.accent.opacity(0.5), radius: 10, y: 4)
+                                Color.clear.softAccent(14)
                             }
                         }
                     )
@@ -287,15 +437,7 @@ struct TabBar: View {
             }
         }
         .padding(6)
-        .background(
-            RoundedRectangle(cornerRadius: 20, style: .continuous)
-                .fill(Theme.surface)
-                .shadow(color: .black.opacity(0.6), radius: 14, y: 6)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .strokeBorder(Color.white.opacity(0.05), lineWidth: 1)
-                )
-        )
+        .neumorph(20)
         .padding(.horizontal, 18)
         .padding(.bottom, 8)
     }
@@ -514,10 +656,7 @@ struct TodayView: View {
                 .tint(tint)
                 .padding(.vertical, 10)
                 .frame(maxWidth: .infinity)
-                .background(
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(Theme.inset)
-                )
+                .softInset(12)
         }
     }
 
@@ -569,10 +708,7 @@ struct TodayView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 12)
-        .background(
-            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                .fill(Theme.inset)
-        )
+        .softInset(16)
     }
 
     var weekStrip: some View {
@@ -604,6 +740,7 @@ struct TodayView: View {
 
     func addEntry() {
         guard let cals = evaluated, cals > 0 else { Haptics.fail(); return }
+        Haptics.snap()
         let e = Entry(date: Date(), calories: cals,
                       protein: Int(proteinText), carbs: Int(carbsText), fat: Int(fatText))
         withAnimation(.spring(response: 0.4)) { store.add(e) }
@@ -673,9 +810,7 @@ struct TodayView: View {
                         .font(.system(size: 13, weight: .heavy))
                         .foregroundStyle(Theme.dim)
                         .frame(maxWidth: .infinity, minHeight: 38)
-                        .background(
-                            RoundedRectangle(cornerRadius: 10).fill(Theme.inset)
-                        )
+                        .softInset(10)
                 }
                 .buttonStyle(.plain)
             }
@@ -701,12 +836,7 @@ struct MathChip: View {
             }
             .foregroundStyle(.white)
             .frame(maxWidth: .infinity, minHeight: 42)
-            .background(
-                RoundedRectangle(cornerRadius: 12, style: .continuous)
-                    .fill(Theme.surface)
-                    .shadow(color: .black.opacity(0.4), radius: 4, x: 3, y: 3)
-                    .shadow(color: .white.opacity(0.03), radius: 4, x: -2, y: -2)
-            )
+            .neumorph(12)
             .overlay(
                 RoundedRectangle(cornerRadius: 12, style: .continuous)
                     .strokeBorder(tint.opacity(0.35), lineWidth: 1)
@@ -727,8 +857,16 @@ struct SplitChip: View {
                 .foregroundStyle(Theme.mint)
                 .frame(maxWidth: .infinity, minHeight: 38)
                 .background(
-                    RoundedRectangle(cornerRadius: 10, style: .continuous)
-                        .fill(Theme.mint.opacity(0.12))
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .fill(
+                                LinearGradient(colors: [Theme.surfaceHi, Theme.surface],
+                                               startPoint: .topLeading, endPoint: .bottomTrailing))
+                            .shadow(color: .black.opacity(0.55), radius: 6, x: 4, y: 4)
+                            .shadow(color: .white.opacity(0.04), radius: 5, x: -3, y: -3)
+                        RoundedRectangle(cornerRadius: 10, style: .continuous)
+                            .fill(Theme.mint.opacity(0.10))
+                    }
                 )
                 .overlay(
                     RoundedRectangle(cornerRadius: 10, style: .continuous)
@@ -776,15 +914,23 @@ struct AddButton: View {
         Button(action: action) {
             ZStack {
                 RoundedRectangle(cornerRadius: corner, style: .continuous)
-                    .fill(enabled ? Theme.accent : Color.gray.opacity(0.3))
+                    .fill(
+                        enabled
+                        ? AnyShapeStyle(LinearGradient(colors: [Theme.accentGlow, Theme.accent],
+                                                      startPoint: .topLeading,
+                                                      endPoint: .bottomTrailing))
+                        : AnyShapeStyle(Color.gray.opacity(0.3))
+                    )
                     .frame(width: size, height: size)
-                    .shadow(color: enabled ? Theme.accent.opacity(0.5) : .clear,
-                            radius: pressed ? 4 : 14, y: pressed ? 2 : 6)
+                    .shadow(color: enabled ? Color.black.opacity(pressed ? 0.2 : 0.55) : .clear,
+                            radius: pressed ? 4 : 10, x: pressed ? 2 : 7, y: pressed ? 2 : 7)
+                    .shadow(color: enabled ? Theme.accent.opacity(pressed ? 0.2 : 0.45) : .clear,
+                            radius: pressed ? 4 : 12, x: pressed ? -1 : -4, y: pressed ? -1 : -4)
                     .overlay(
                         RoundedRectangle(cornerRadius: corner, style: .continuous)
                             .stroke(
                                 LinearGradient(
-                                    colors: [Theme.accentGlow.opacity(0.9), .clear],
+                                    colors: [Color.white.opacity(0.35), .clear],
                                     startPoint: .topLeading, endPoint: .bottomTrailing),
                                 lineWidth: 1.5)
                     )
@@ -815,7 +961,19 @@ struct ProgressBar: View {
     var body: some View {
         GeometryReader { geo in
             ZStack(alignment: .leading) {
-                Capsule().fill(Theme.inset)
+                Capsule()
+                    .fill(LinearGradient(colors: [Theme.inset, Theme.surface.opacity(0.85)],
+                                         startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .overlay(
+                        Capsule()
+                            .stroke(Color.black.opacity(0.6), lineWidth: 2)
+                            .blur(radius: 2)
+                            .offset(x: 1, y: 1)
+                            .mask(Capsule().fill(LinearGradient(
+                                colors: [.black, .clear],
+                                startPoint: .topLeading, endPoint: .bottomTrailing)))
+                    )
+                    .clipShape(Capsule())
                 Capsule()
                     .fill(LinearGradient(colors: [Theme.accent, Theme.accentGlow],
                                          startPoint: .leading, endPoint: .trailing))
@@ -960,10 +1118,11 @@ struct DayEditor: View {
                         .tint(Theme.accent)
                         .padding(.horizontal, 18)
                         .padding(.vertical, 14)
-                        .background(RoundedRectangle(cornerRadius: 16).fill(Theme.inset))
+                        .softInset(16)
 
                     Button {
                         guard let c = Int(newCals), c > 0 else { Haptics.fail(); return }
+                        Haptics.snap()
                         let when = Calendar.current.isDateInToday(date) ? Date() : noonOf(date)
                         store.add(Entry(date: when, calories: c))
                         newCals = ""; focused = false
@@ -973,11 +1132,7 @@ struct DayEditor: View {
                             .font(.system(size: 22, weight: .black))
                             .foregroundStyle(.white)
                             .frame(width: 56, height: 56)
-                            .background(
-                                RoundedRectangle(cornerRadius: 16)
-                                    .fill(Theme.accent)
-                                    .shadow(color: Theme.accent.opacity(0.5), radius: 10, y: 4)
-                            )
+                            .softAccent(16)
                     }
                 }
 
@@ -1057,7 +1212,7 @@ struct EntryRow: View {
                         .font(.system(size: 14, weight: .heavy))
                         .foregroundStyle(Theme.mint)
                         .frame(width: 36, height: 36)
-                        .background(Circle().fill(Theme.inset))
+                        .softInsetCircle()
                 }
             } else {
                 Button { Haptics.tap(); text = "\(entry.calories)"; editing = true; focused = true } label: {
@@ -1065,7 +1220,7 @@ struct EntryRow: View {
                         .font(.system(size: 13, weight: .heavy))
                         .foregroundStyle(Theme.dim)
                         .frame(width: 36, height: 36)
-                        .background(Circle().fill(Theme.inset))
+                        .softInsetCircle()
                 }
             }
             Button(action: { Haptics.warn(); onDelete() }) {
@@ -1132,7 +1287,7 @@ struct GoalView: View {
                 }
                 .padding(.horizontal, 18)
                 .padding(.vertical, 14)
-                .background(RoundedRectangle(cornerRadius: 20).fill(Theme.inset))
+                .softInset(20)
 
                 HStack(spacing: 10) {
                     ForEach([10500, 12600, 14000, 15400, 17500], id: \.self) { preset in
@@ -1142,7 +1297,7 @@ struct GoalView: View {
                                 .foregroundStyle(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 12)
-                                .background(RoundedRectangle(cornerRadius: 12).fill(Theme.surface))
+                                .neumorph(12)
                         }
                     }
                 }
@@ -1157,11 +1312,7 @@ struct GoalView: View {
                         .foregroundStyle(.white)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 18)
-                        .background(
-                            RoundedRectangle(cornerRadius: 18)
-                                .fill(Theme.accent)
-                                .shadow(color: Theme.accent.opacity(0.5), radius: 12, y: 6)
-                        )
+                        .softAccent(18)
                 }
 
                 Spacer()
@@ -1567,7 +1718,7 @@ struct TDEEView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 10)
-        .background(RoundedRectangle(cornerRadius: 14).fill(Theme.inset))
+        .softInset(14)
     }
 
     var activityPicker: some View {
@@ -1588,18 +1739,25 @@ struct TDEEView: View {
                         Haptics.pick()
                         actRaw = a.rawValue
                     } label: {
-                        Text(a.label)
-                            .font(.system(size: 10, weight: .heavy, design: .monospaced))
-                            .tracking(1)
-                            .foregroundStyle(actRaw == a.rawValue ? .white : Theme.dim)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 12)
-                            .background(
-                                RoundedRectangle(cornerRadius: 12, style: .continuous)
-                                    .fill(actRaw == a.rawValue ? Theme.accent : Theme.inset)
-                                    .shadow(color: actRaw == a.rawValue ? Theme.accent.opacity(0.5) : .clear,
-                                            radius: 8, y: 3)
-                            )
+                        Group {
+                            if actRaw == a.rawValue {
+                                Text(a.label)
+                                    .font(.system(size: 10, weight: .heavy, design: .monospaced))
+                                    .tracking(1)
+                                    .foregroundStyle(.white)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 12)
+                                    .softAccent(12)
+                            } else {
+                                Text(a.label)
+                                    .font(.system(size: 10, weight: .heavy, design: .monospaced))
+                                    .tracking(1)
+                                    .foregroundStyle(Theme.dim)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 12)
+                                    .softInset(12)
+                            }
+                        }
                     }
                     .buttonStyle(.plain)
                 }
@@ -1693,17 +1851,25 @@ struct SegmentedPicker: View {
             HStack(spacing: 6) {
                 ForEach(options, id: \.value) { opt in
                     Button { selection = opt.value } label: {
-                        Text(opt.label)
-                            .font(.system(size: 12, weight: .heavy, design: .monospaced))
-                            .tracking(2)
-                            .foregroundStyle(selection == opt.value ? .white : Theme.dim)
-                            .frame(maxWidth: .infinity)
-                            .padding(.vertical, 14)
-                            .background(
-                                RoundedRectangle(cornerRadius: 12)
-                                    .fill(selection == opt.value ? Theme.accent : Theme.inset)
-                                    .shadow(color: selection == opt.value ? Theme.accent.opacity(0.5) : .clear, radius: 8, y: 3)
-                            )
+                        Group {
+                            if selection == opt.value {
+                                Text(opt.label)
+                                    .font(.system(size: 12, weight: .heavy, design: .monospaced))
+                                    .tracking(2)
+                                    .foregroundStyle(.white)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 14)
+                                    .softAccent(12)
+                            } else {
+                                Text(opt.label)
+                                    .font(.system(size: 12, weight: .heavy, design: .monospaced))
+                                    .tracking(2)
+                                    .foregroundStyle(Theme.dim)
+                                    .frame(maxWidth: .infinity)
+                                    .padding(.vertical, 14)
+                                    .softInset(12)
+                            }
+                        }
                     }
                     .buttonStyle(.plain)
                 }
@@ -1744,13 +1910,13 @@ struct StepperRow: View {
             StepButton(icon: "minus") {
                 if value - step >= range.lowerBound {
                     withAnimation(.spring(response: 0.2)) { value -= step }
-                    Haptics.tick()
+                    Haptics.tap()
                 } else { Haptics.fail() }
             }
             StepButton(icon: "plus") {
                 if value + step <= range.upperBound {
                     withAnimation(.spring(response: 0.2)) { value += step }
-                    Haptics.tick()
+                    Haptics.tap()
                 } else { Haptics.fail() }
             }
         }
@@ -1789,13 +1955,13 @@ struct DoubleStepperRow: View {
             StepButton(icon: "minus") {
                 if value - step >= range.lowerBound {
                     withAnimation(.spring(response: 0.2)) { value -= step }
-                    Haptics.tick()
+                    Haptics.tap()
                 } else { Haptics.fail() }
             }
             StepButton(icon: "plus") {
                 if value + step <= range.upperBound {
                     withAnimation(.spring(response: 0.2)) { value += step }
-                    Haptics.tick()
+                    Haptics.tap()
                 } else { Haptics.fail() }
             }
         }
@@ -1813,12 +1979,7 @@ struct StepButton: View {
                 .font(.system(size: 16, weight: .black))
                 .foregroundStyle(.white)
                 .frame(width: 44, height: 44)
-                .background(
-                    RoundedRectangle(cornerRadius: 12, style: .continuous)
-                        .fill(Theme.surface)
-                        .shadow(color: .black.opacity(0.4), radius: 4, x: 3, y: 3)
-                        .shadow(color: .white.opacity(0.03), radius: 4, x: -2, y: -2)
-                )
+                .neumorph(12)
         }
         .buttonStyle(.plain)
     }
