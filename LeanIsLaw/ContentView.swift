@@ -235,19 +235,65 @@ struct Entry: Identifiable, Codable, Hashable {
 
 final class Store: ObservableObject {
     @Published var entries: [Entry] = [] { didSet { save() } }
+    @Published var weeklyGoals: [String: Int] = [:] {
+        didSet {
+            if let data = try? JSONEncoder().encode(weeklyGoals) {
+                UserDefaults.standard.set(data, forKey: "weeklyGoals")
+            }
+        }
+    }
     @Published var weeklyGoal: Int {
         didSet {
             UserDefaults.standard.set(weeklyGoal, forKey: "weeklyGoal")
+            weeklyGoals[Store.weekKey(weekStart)] = weeklyGoal
             writeWidgetSnapshot()
         }
     }
 
     init() {
         self.weeklyGoal = UserDefaults.standard.object(forKey: "weeklyGoal") as? Int ?? 14000
+        if let data = UserDefaults.standard.data(forKey: "weeklyGoals"),
+           let decoded = try? JSONDecoder().decode([String: Int].self, from: data) {
+            self.weeklyGoals = decoded
+        }
         if let data = UserDefaults.standard.data(forKey: "entries"),
            let decoded = try? JSONDecoder().decode([Entry].self, from: data) {
             self.entries = decoded
         }
+        backfillWeeklyGoals()
+    }
+
+    static func weekKey(_ date: Date) -> String {
+        let f = DateFormatter()
+        f.calendar = Calendar(identifier: .iso8601)
+        f.locale = Locale(identifier: "en_US_POSIX")
+        f.timeZone = TimeZone.current
+        f.dateFormat = "yyyy-MM-dd"
+        return f.string(from: date)
+    }
+
+    func goalForWeek(_ start: Date) -> Int {
+        weeklyGoals[Store.weekKey(start)] ?? weeklyGoal
+    }
+
+    private func backfillWeeklyGoals() {
+        let cal = Calendar.current
+        var changed = false
+        var seen = Set<Date>()
+        for e in entries {
+            if let ws = cal.dateInterval(of: .weekOfYear, for: e.date)?.start {
+                seen.insert(ws)
+            }
+        }
+        seen.insert(weekStart)
+        for ws in seen {
+            let key = Store.weekKey(ws)
+            if weeklyGoals[key] == nil {
+                weeklyGoals[key] = weeklyGoal
+                changed = true
+            }
+        }
+        if !changed { writeWidgetSnapshot() }
     }
 
     func save() {
@@ -304,7 +350,8 @@ final class Store: ObservableObject {
     func weeks() -> [(start: Date, total: Int, goal: Int, success: Bool, isCurrent: Bool)] {
         let cal = Calendar.current
         guard let earliest = entries.map(\.date).min() else {
-            return [(weekStart, weeklyTotal, weeklyGoal, weeklyTotal <= weeklyGoal && weeklyTotal > 0, true)]
+            let g = goalForWeek(weekStart)
+            return [(weekStart, weeklyTotal, g, weeklyTotal <= g && weeklyTotal > 0, true)]
         }
         let firstWeek = cal.dateInterval(of: .weekOfYear, for: earliest)?.start ?? weekStart
         var result: [(Date, Int, Int, Bool, Bool)] = []
@@ -314,8 +361,9 @@ final class Store: ObservableObject {
             let items = entries.filter { $0.date >= cursor && $0.date < end }
             let total = items.reduce(0) { $0 + $1.calories }
             let current = cal.isDate(cursor, inSameDayAs: weekStart)
-            let success = total > 0 && total <= weeklyGoal
-            result.append((cursor, total, weeklyGoal, success, current))
+            let goal = goalForWeek(cursor)
+            let success = total > 0 && total <= goal
+            result.append((cursor, total, goal, success, current))
             cursor = end
         }
         return result.reversed()
@@ -457,6 +505,9 @@ struct TodayView: View {
     @State private var fatText = ""
     @State private var showMacros = false
     @State private var showGoal = false
+    @State private var showMealSheet = false
+    @State private var pickedImage: UIImage? = nil
+    @State private var pickerSource: CameraPicker.Source? = nil
     @State private var inputHidden: Bool = false
     @State private var lastScrollY: CGFloat = 0
     @FocusState private var focused: Bool
@@ -522,6 +573,26 @@ struct TodayView: View {
             GoalView(goal: $store.weeklyGoal)
                 .presentationDetents([.medium])
                 .presentationBackground(Theme.bg)
+        }
+        .sheet(isPresented: $showMealSheet, onDismiss: {
+            pickedImage = nil
+            pickerSource = nil
+        }) {
+            mealSheet
+                .presentationDetents([.large])
+                .presentationBackground(Theme.bg)
+                .sheet(item: Binding(
+                    get: { pickerSource.map { PickerSourceWrapper(source: $0) } },
+                    set: { pickerSource = $0?.source }
+                )) { wrapper in
+                    CameraPicker(source: wrapper.source) { img in
+                        pickedImage = img.downscaled(toLongestEdge: 1024)
+                        pickerSource = nil
+                    } onCancel: {
+                        pickerSource = nil
+                    }
+                    .ignoresSafeArea()
+                }
         }
         .onTapGesture { focused = false }
     }
@@ -608,6 +679,19 @@ struct TodayView: View {
                             .opacity(hasOperator ? 0 : 1)
                     }
                     Spacer(minLength: 0)
+                    Button {
+                        Haptics.tap()
+                        focused = false
+                        showMealSheet = true
+                    } label: {
+                        Image(systemName: "camera.fill")
+                            .font(.system(size: expanded ? 22 : 18, weight: .heavy))
+                            .foregroundStyle(.white)
+                            .frame(width: expanded ? 64 : 50, height: expanded ? 64 : 50)
+                            .accessibilityIdentifier("mealCameraButton")
+                    }
+                    .buttonStyle(.plain)
+                    .neumorph(expanded ? 20 : 16)
                     AddButton(enabled: (evaluated ?? 0) > 0, compact: !expanded, action: addEntry)
                 }
             }
@@ -648,23 +732,6 @@ struct TodayView: View {
         .contentShape(Rectangle())
         .onTapGesture {
             if !expanded { Haptics.tap(); focused = true }
-        }
-    }
-
-    func macroField(_ label: String, text: Binding<String>, tint: Color) -> some View {
-        VStack(spacing: 4) {
-            Text(label)
-                .font(.system(size: 11, weight: .heavy, design: .monospaced))
-                .foregroundStyle(tint.opacity(0.9))
-            TextField("0", text: text)
-                .keyboardType(.numberPad)
-                .multilineTextAlignment(.center)
-                .font(.system(size: 18, weight: .bold, design: .rounded))
-                .foregroundStyle(.white)
-                .tint(tint)
-                .padding(.vertical, 10)
-                .frame(maxWidth: .infinity)
-                .softInset(12)
         }
     }
 
@@ -735,7 +802,7 @@ struct TodayView: View {
             VStack(spacing: 10) {
                 ForEach(store.days(), id: \.date) { day in
                     NavigationLink(value: day.date) {
-                        DayBar(date: day.date, total: day.total, count: day.items.count,
+                        DayBar(date: day.date, total: day.total,
                                dailyTarget: store.weeklyGoal / 7) { }
                     }
                     .buttonStyle(.plain)
@@ -744,6 +811,79 @@ struct TodayView: View {
                 }
             }
         }
+    }
+
+    @ViewBuilder var mealSheet: some View {
+        if let img = pickedImage {
+            MealAnalysisSheet(
+                image: img,
+                onSave: { entry in
+                    withAnimation(.spring(response: 0.4)) { store.add(entry) }
+                    showMealSheet = false
+                },
+                onCancel: { showMealSheet = false }
+            )
+        } else {
+            VStack(spacing: 18) {
+                HStack {
+                    Text("MEAL PHOTO")
+                        .font(.system(size: 11, weight: .heavy, design: .monospaced))
+                        .tracking(2)
+                        .foregroundStyle(Theme.faint)
+                    Spacer()
+                    Button("Close") { showMealSheet = false }
+                        .foregroundStyle(Theme.dim)
+                        .accessibilityIdentifier("mealSheetClose")
+                }
+                .padding(.horizontal, 4)
+
+                VStack(spacing: 12) {
+                    if UIImagePickerController.isSourceTypeAvailable(.camera) {
+                        Button {
+                            Haptics.tap()
+                            pickerSource = .camera
+                        } label: {
+                            sourceRow(icon: "camera.fill", label: "TAKE PHOTO")
+                        }
+                        .buttonStyle(.plain)
+                        .accessibilityIdentifier("pickerCamera")
+                    }
+                    Button {
+                        Haptics.tap()
+                        pickerSource = .photoLibrary
+                    } label: {
+                        sourceRow(icon: "photo.on.rectangle", label: "PHOTO LIBRARY")
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityIdentifier("pickerLibrary")
+                }
+                Spacer()
+            }
+            .padding(20)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Theme.bg.ignoresSafeArea())
+        }
+    }
+
+    func sourceRow(icon: String, label: String) -> some View {
+        HStack(spacing: 14) {
+            Image(systemName: icon)
+                .font(.system(size: 18, weight: .heavy))
+                .foregroundStyle(.white)
+                .frame(width: 28)
+            Text(label)
+                .font(.system(size: 13, weight: .heavy, design: .monospaced))
+                .tracking(1.5)
+                .foregroundStyle(.white)
+            Spacer()
+            Image(systemName: "chevron.right")
+                .font(.system(size: 12, weight: .heavy))
+                .foregroundStyle(Theme.faint)
+        }
+        .padding(.horizontal, 18)
+        .padding(.vertical, 18)
+        .frame(maxWidth: .infinity)
+        .neumorph(18)
     }
 
     func addEntry() {
@@ -885,6 +1025,28 @@ struct SplitChip: View {
     }
 }
 
+func macroField(_ label: String, text: Binding<String>, tint: Color) -> some View {
+    VStack(spacing: 4) {
+        Text(label)
+            .font(.system(size: 11, weight: .heavy, design: .monospaced))
+            .foregroundStyle(tint.opacity(0.9))
+        TextField("0", text: text)
+            .keyboardType(.numberPad)
+            .multilineTextAlignment(.center)
+            .font(.system(size: 18, weight: .bold, design: .rounded))
+            .foregroundStyle(.white)
+            .tint(tint)
+            .padding(.vertical, 10)
+            .frame(maxWidth: .infinity)
+            .softInset(12)
+    }
+}
+
+struct PickerSourceWrapper: Identifiable {
+    let source: CameraPicker.Source
+    var id: String { source == .camera ? "camera" : "library" }
+}
+
 func evaluateExpression(_ raw: String) -> Int? {
     let trimmed = raw.trimmingCharacters(in: .whitespaces)
     guard !trimmed.isEmpty else { return nil }
@@ -995,7 +1157,6 @@ struct ProgressBar: View {
 struct DayBar: View {
     let date: Date
     let total: Int
-    let count: Int
     let dailyTarget: Int
     var onTap: () -> Void = {}
 
@@ -1029,15 +1190,18 @@ struct DayBar: View {
                 }
                 .frame(height: 22)
 
-                VStack(alignment: .trailing, spacing: 2) {
+                HStack(alignment: .lastTextBaseline, spacing: 3) {
                     Text("\(total)")
                         .font(.system(size: 20, weight: .black, design: .rounded))
                         .foregroundStyle(total > 0 ? .white : Theme.faint)
-                    Text(count == 1 ? "1 entry" : "\(count) entries")
-                        .font(.system(size: 9, weight: .heavy, design: .monospaced))
-                        .foregroundStyle(Theme.faint)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.7)
+                    Text("/\(dailyTarget)")
+                        .font(.system(size: 10, weight: .heavy, design: .rounded))
+                        .foregroundStyle(Theme.dim)
+                        .lineLimit(1)
                 }
-                .frame(width: 64, alignment: .trailing)
+                .fixedSize(horizontal: true, vertical: false)
             }
         .padding(.horizontal, 14)
         .padding(.vertical, 12)
