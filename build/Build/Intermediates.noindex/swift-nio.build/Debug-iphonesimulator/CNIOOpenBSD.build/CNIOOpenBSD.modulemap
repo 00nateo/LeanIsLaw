@@ -1,0 +1,4 @@
+module CNIOOpenBSD {
+umbrella header "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/CNIOOpenBSD/include/CNIOOpenBSD.h"
+export *
+}

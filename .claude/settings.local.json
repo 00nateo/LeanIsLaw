@@ -1,0 +1,29 @@
+{
+  "fastMode": false,
+  "permissions": {
+    "allow": [
+      "Bash(xcodebuild -project LeanIsLaw.xcodeproj -scheme LeanIsLaw -destination 'platform=iOS Simulator,name=iPhone 16' build)",
+      "Bash(xcodebuild -project LeanIsLaw.xcodeproj -scheme LeanIsLaw -destination 'platform=iOS Simulator,name=iPhone 17' build)",
+      "Bash(xcodebuild -project /Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLaw.xcodeproj -scheme LeanIsLaw -destination 'platform=iOS Simulator,name=iPhone 17' build)",
+      "Bash(make run *)",
+      "Bash(xcrun simctl *)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:api.github.com)",
+      "Read(//private/tmp/**)",
+      "Bash(bunx add-skill *)",
+      "Bash(npx serve-sim *)",
+      "Bash(curl -s http://127.0.0.1:3100/screenshot -o /tmp/lil-1.jpg)",
+      "Read(//tmp/**)",
+      "Bash(curl -sI http://127.0.0.1:3100/ax)",
+      "Bash(curl -s http://127.0.0.1:3100/config)",
+      "Bash(curl -s http://127.0.0.1:3100/ax)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 *)",
+      "Bash(ffmpeg -hide_banner -y -i \"http://127.0.0.1:3100/stream.mjpeg\" -frames:v 1 /tmp/lil-pre.jpg)",
+      "Bash(brew list *)",
+      "Bash(npx --yes @ffmpeg-installer/ffmpeg --help)",
+      "Bash(swift /tmp/extract.swift /tmp/anim2.mov /tmp/vidframes2)"
+    ]
+  }
+}

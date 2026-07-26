@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/matmul.cpp \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/array.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/allocator.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/api.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/dtype.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/types/complex.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/types/half_types.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/types/bf16.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/event.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/stream.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/device.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/small_vector.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/binary.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/common/binary.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/common/utils.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/encoder.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/scheduler.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/gpu/eval.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/simd.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/math.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/type.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/base_simd.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/accelerate_simd.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/accelerate_fp16_simd.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/simd/neon_fp16_simd.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/binary_ops.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/copy.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/common/copy.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/backend/cpu/gemm.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/primitives.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/io/load.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx/mlx/threadpool.h

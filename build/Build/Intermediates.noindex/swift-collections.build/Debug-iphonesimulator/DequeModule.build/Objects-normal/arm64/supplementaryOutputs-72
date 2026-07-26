@@ -1,0 +1,23 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/_DequeSlot.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_DequeSlot.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_DequeSlot.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_DequeSlot.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_DequeSlot.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_DequeSlot.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/_UnsafeDequeHandle.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeHandle.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeHandle.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeHandle.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeHandle.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeHandle.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/_UnsafeDequeSegments.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeSegments.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeSegments.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeSegments.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeSegments.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/_UnsafeDequeSegments.swiftdeps"
+  }
+}

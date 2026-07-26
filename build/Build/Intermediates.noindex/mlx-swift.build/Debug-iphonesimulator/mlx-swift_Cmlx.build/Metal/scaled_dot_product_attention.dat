@@ -1,0 +1,10 @@
+dependencies: \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/scaled_dot_product_attention.metal \
+  /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.ARhkgk/Metal.xctoolchain/usr/metal/32023/lib/clang/32023.864/include/metal/module.modulemap \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/utils.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/bf16.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/bf16_math.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/complex.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/defines.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/logging.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/sdpa_vector.h

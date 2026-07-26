@@ -1,0 +1,44 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntax.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntax.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntax.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntax.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntax.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntax.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxArena.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxArena.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxArena.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxArena.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxArena.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxArena.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxLayoutView.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxLayoutView.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxLayoutView.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxLayoutView.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxLayoutView.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxLayoutView.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxNodeProtocol.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxNodeProtocol.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxNodeProtocol.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxNodeProtocol.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxNodeProtocol.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxNodeProtocol.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/Raw/RawSyntaxTokenView.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxTokenView.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxTokenView.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxTokenView.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxTokenView.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/RawSyntaxTokenView.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntax/SourceEdit.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/SourceEdit.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/SourceEdit.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/SourceEdit.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/SourceEdit.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax.build/Objects-normal/arm64/SourceEdit.swiftdeps"
+  }
+}

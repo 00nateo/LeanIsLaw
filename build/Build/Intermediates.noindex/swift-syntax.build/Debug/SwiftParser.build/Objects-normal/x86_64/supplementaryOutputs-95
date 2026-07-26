@@ -1,0 +1,30 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParser/TokenSpec.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpec.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpec.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpec.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpec.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpec.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParser/TokenSpecSet.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpecSet.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpecSet.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpecSet.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpecSet.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TokenSpecSet.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParser/TopLevel.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TopLevel.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TopLevel.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TopLevel.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TopLevel.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TopLevel.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParser/TriviaParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TriviaParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TriviaParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TriviaParser.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TriviaParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParser.build/Objects-normal/x86_64/TriviaParser.swiftdeps"
+  }
+}

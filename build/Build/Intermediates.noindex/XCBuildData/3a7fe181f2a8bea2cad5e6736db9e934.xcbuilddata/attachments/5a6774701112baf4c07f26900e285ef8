@@ -1,0 +1,579 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MLXLMCommon-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MLXLMCommon-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MLXLMCommon-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MLXLMCommon-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MLXLMCommon-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/LoRA/DoRA+Layers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/DoRA+Layers~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/LoRA/LoRA+Layers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRA+Layers~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/LoRA/LoRAContainer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAContainer~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/LoRA/LoRAModel.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LoRAModel~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/ModelAdapter.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapter~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/ModelAdapterFactory.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterFactory~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Adapters/ModelAdapterTypeRegistry.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelAdapterTypeRegistry~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/AttentionUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AttentionUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/BaseConfiguration.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/BaseConfiguration~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Chat.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Chat~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ChatSession.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ChatSession~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Downloader.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Downloader~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Evaluate.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Evaluate~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Extensions/Encodable+toolResult.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Encodable+toolResult~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Extensions/JSONDecoder+JSON5.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecoder+JSON5~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/GenerationConfigFile.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GenerationConfigFile~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/InterpolationUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/InterpolationUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/JSONDecodingTypes.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONDecodingTypes~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/KVCache.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KVCache~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/LanguageModel.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/LanguageModel~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Load.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Load~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ModelConfiguration.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelConfiguration~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ModelContainer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelContainer~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ModelFactory.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelFactory~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Models/Gemma.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Gemma~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Module+Extensions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Module+Extensions~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ParoQuant/ParoQuantLoader.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParoQuantLoader~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/ParoQuant/RotateQuantizedLinear.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RotateQuantizedLinear~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Registries/AbstractModelRegistry.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/AbstractModelRegistry~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Registries/ModelTypeRegistry.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ModelTypeRegistry~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Registries/ProcessorTypeRegistry.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ProcessorTypeRegistry~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/RoPEApplication.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEApplication~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/RoPEUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/RoPEUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/SuScaledRoPE.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SuScaledRoPE~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/SwitchLayers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SwitchLayers~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tokenizer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tokenizer~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/TokenizerLoader.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/TokenizerLoader~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/GLM4ToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GLM4ToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/GemmaFunctionParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/GemmaFunctionParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/JSONToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/JSONToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/KimiK2ToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/KimiK2ToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/Llama3ToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Llama3ToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/MiniMaxM2ToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MiniMaxM2ToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/MistralToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/MistralToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/ParserUtilities.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ParserUtilities~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/PythonicToolCallParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/PythonicToolCallParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Parsers/XMLFunctionParser.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/XMLFunctionParser~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Tool.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Tool~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/ToolCall.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCall~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/ToolCallFormat.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallFormat~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/ToolCallProcessor.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolCallProcessor~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/ToolParameter.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/ToolParameter~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Tool/Value.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/Value~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/UserInput.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/UserInput~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/Utilities/SerialAccessContainer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/SerialAccessContainer~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/WiredMemoryPolicies.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryPolicies~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift-lm/Libraries/MLXLMCommon/WiredMemoryUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.dia",
+    "index-unit-output-path" : "/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/mlx-swift-lm.build/Debug-iphonesimulator/MLXLMCommon.build/Objects-normal/arm64/WiredMemoryUtils~partial.swiftmodule"
+  }
+}

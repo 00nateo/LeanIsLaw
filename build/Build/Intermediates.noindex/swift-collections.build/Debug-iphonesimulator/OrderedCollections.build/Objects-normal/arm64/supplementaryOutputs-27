@@ -1,0 +1,37 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Descriptions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Descriptions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Descriptions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Descriptions.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Descriptions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Descriptions.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements.SubSequence.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.SubSequence.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.SubSequence.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.SubSequence.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.SubSequence.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.SubSequence.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Elements.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Equatable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Equatable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Equatable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Equatable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Equatable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Equatable.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+ExpressibleByDictionaryLiteral.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+ExpressibleByDictionaryLiteral.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+ExpressibleByDictionaryLiteral.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+ExpressibleByDictionaryLiteral.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+ExpressibleByDictionaryLiteral.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+ExpressibleByDictionaryLiteral.swiftdeps"
+  }
+}

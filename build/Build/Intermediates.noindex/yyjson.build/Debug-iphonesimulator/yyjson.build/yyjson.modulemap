@@ -1,0 +1,4 @@
+module yyjson {
+umbrella header "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/yyjson/src/yyjson.h"
+export *
+}

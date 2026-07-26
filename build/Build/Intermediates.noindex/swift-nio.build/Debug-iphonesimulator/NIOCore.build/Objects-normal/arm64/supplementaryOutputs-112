@@ -1,0 +1,44 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-multi-int.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-multi-int.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-multi-int.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-multi-int.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-multi-int.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-multi-int.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-quicBinaryEncodingStrategy.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-quicBinaryEncodingStrategy.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-quicBinaryEncodingStrategy.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-quicBinaryEncodingStrategy.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-quicBinaryEncodingStrategy.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-quicBinaryEncodingStrategy.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-views.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-views.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-views.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-views.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-views.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ByteBuffer-views.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/Channel.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/Channel.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/Channel.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/Channel.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/Channel.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/Channel.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/ChannelHandler.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandler.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandler.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandler.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandler.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandler.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/ChannelHandlers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandlers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandlers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandlers.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandlers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/ChannelHandlers.swiftdeps"
+  }
+}

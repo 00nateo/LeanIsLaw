@@ -1,0 +1,160 @@
+{
+  "source": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Display Mode",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calories eaten",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calories left today",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lean Is Law",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Choose what to show.",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mode",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "LEAN IS LAW",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "/ %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "/ %lld kcal",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 259
+        }
+      },
+      {
+        "comment": "",
+        "key": "🔥 %lld eaten · %lld left",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 273
+        }
+      },
+      {
+        "comment": "",
+        "key": "🥗 %lld kcal left today",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "LEAN IS LAW",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "Lean Is Law",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Today's calories and weekly progress.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 351
+        }
+      }
+    ]
+  },
+  "version": 1
+}

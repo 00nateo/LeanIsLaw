@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-numerics/Sources/Numerics/Numerics.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.dia",
+    "index-unit-output-path" : "/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-numerics.build/Debug-iphonesimulator/Numerics.build/Objects-normal/arm64/Numerics~partial.swiftmodule"
+  }
+}

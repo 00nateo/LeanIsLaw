@@ -1,0 +1,30 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/UniqueDeque/UniqueDeque+Descriptions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Descriptions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Descriptions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Descriptions.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Descriptions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Descriptions.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/UniqueDeque/UniqueDeque+Equatable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Equatable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Equatable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Equatable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Equatable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Equatable.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/UniqueDeque/UniqueDeque+Experimental.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Experimental.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Experimental.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Experimental.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Experimental.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Experimental.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/UniqueDeque/UniqueDeque+Hashable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Hashable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Hashable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Hashable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Hashable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/UniqueDeque+Hashable.swiftdeps"
+  }
+}

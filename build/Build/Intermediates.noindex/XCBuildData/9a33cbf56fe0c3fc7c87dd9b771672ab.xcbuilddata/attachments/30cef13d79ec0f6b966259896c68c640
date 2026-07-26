@@ -1,0 +1,19 @@
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/Debugging.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/Descriptions.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/IntegerTricks/FixedWidthInteger+roundUpToPowerOfTwo.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/IntegerTricks/Integer\ rank.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/IntegerTricks/UInt+first\ and\ last\ set\ bit.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/IntegerTricks/UInt+reversed.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/LifetimeOverride.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/RandomAccessCollection+Offsets.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/Span+Extras.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/String+Padding.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeBitSet/_UnsafeBitSet+Index.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeBitSet/_UnsafeBitSet+_Word.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeBitSet/_UnsafeBitSet.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeBufferPointer+Extras.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeMutableBufferPointer+Extras.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeMutableRawBufferPointer+Extras.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/UnsafeRawBufferPointer+Extras.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/_SortedCollection.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/InternalCollectionsUtilities/_UniqueCollection.swift

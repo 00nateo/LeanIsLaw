@@ -1,0 +1,96 @@
+{
+  "source": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLaw/MealAnalysisSheet.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "MEAL PHOTO",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "ANALYSIS FAILED",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "RETRY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "MEAL",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "0",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "CALORIES",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "= %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "SAVE",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Low confidence (%lld%%). Double-check the numbers.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 207
+        }
+      }
+    ]
+  },
+  "version": 1
+}

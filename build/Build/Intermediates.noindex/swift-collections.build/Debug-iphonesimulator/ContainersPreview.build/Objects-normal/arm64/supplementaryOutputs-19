@@ -1,0 +1,23 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Container/RandomAccessContainer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RandomAccessContainer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RandomAccessContainer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RandomAccessContainer.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RandomAccessContainer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RandomAccessContainer.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Container/RangeExpression2.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeExpression2.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeExpression2.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeExpression2.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeExpression2.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeExpression2.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/ContainersPreview/Protocols/Container/RangeReplaceableContainer.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeReplaceableContainer.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeReplaceableContainer.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeReplaceableContainer.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeReplaceableContainer.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/ContainersPreview.build/Objects-normal/arm64/RangeReplaceableContainer.swiftdeps"
+  }
+}

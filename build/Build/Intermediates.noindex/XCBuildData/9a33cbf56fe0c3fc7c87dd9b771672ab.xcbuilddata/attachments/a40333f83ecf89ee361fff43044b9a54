@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SwiftParserDiagnostics-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SwiftParserDiagnostics-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SwiftParserDiagnostics-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SwiftParserDiagnostics-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SwiftParserDiagnostics-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/DiagnosticExtensions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/DiagnosticExtensions~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/LexerDiagnosticMessages.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/LexerDiagnosticMessages~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MissingNodesError.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingNodesError~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MissingTokenError.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MissingTokenError~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MultiLineStringLiteralDiagnosticsGenerator.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/MultiLineStringLiteralDiagnosticsGenerator~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/ParseDiagnosticsGenerator.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParseDiagnosticsGenerator~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/ParserDiagnosticMessages.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ParserDiagnosticMessages~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/PresenceUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/PresenceUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/SyntaxExtensions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxExtensions~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/Utils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/Utils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/ChildNameForDiagnostics.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/ChildNameForDiagnostics~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/SyntaxKindNameForDiagnostics.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/SyntaxKindNameForDiagnostics~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/TokenNameForDiagnostics.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftParserDiagnostics.build/Objects-normal/x86_64/TokenNameForDiagnostics~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial RangeReplaceableCollection.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial RangeReplaceableCollection.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra formIntersection.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formIntersection.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formIntersection.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formIntersection.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formIntersection.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formIntersection.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra formSymmetricDifference.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formSymmetricDifference.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formSymmetricDifference.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formSymmetricDifference.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formSymmetricDifference.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formSymmetricDifference.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra formUnion.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formUnion.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formUnion.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formUnion.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formUnion.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra formUnion.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra intersection.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra intersection.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra intersection.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra intersection.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra intersection.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedSet+Partial SetAlgebra intersection.swiftdeps"
+  }
+}

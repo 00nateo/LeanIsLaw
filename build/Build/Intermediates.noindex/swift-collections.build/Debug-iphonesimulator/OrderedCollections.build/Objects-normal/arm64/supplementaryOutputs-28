@@ -1,0 +1,37 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Hashable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Hashable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Hashable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Hashable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Hashable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Hashable.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Initializers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Initializers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Initializers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Initializers.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Initializers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Initializers.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Invariants.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Invariants.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Invariants.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Invariants.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Invariants.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Invariants.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial MutableCollection.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial MutableCollection.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial MutableCollection.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial MutableCollection.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial MutableCollection.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial MutableCollection.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial RangeReplaceableCollection.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial RangeReplaceableCollection.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial RangeReplaceableCollection.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial RangeReplaceableCollection.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial RangeReplaceableCollection.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/OrderedDictionary+Partial RangeReplaceableCollection.swiftdeps"
+  }
+}

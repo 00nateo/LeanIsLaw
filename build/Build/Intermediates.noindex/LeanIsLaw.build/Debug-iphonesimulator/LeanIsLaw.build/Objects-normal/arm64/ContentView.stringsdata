@@ -4,146 +4,394 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Calories",
+        "key": "LEAN IS LAW",
         "location": {
-          "startingColumn": 30,
-          "startingLine": 93
+          "startingColumn": 22,
+          "startingLine": 603
         }
       },
       {
         "comment": "",
-        "key": "Goal: %lld / week",
-        "location": {
-          "startingColumn": 18,
-          "startingLine": 115
-        }
-      },
-      {
-        "comment": "",
-        "key": "Macros (optional)",
-        "location": {
-          "startingColumn": 29,
-          "startingLine": 145
-        }
-      },
-      {
-        "comment": "",
-        "key": "Calories",
-        "location": {
-          "startingColumn": 27,
-          "startingLine": 134
-        }
-      },
-      {
-        "comment": "",
-        "key": "P",
-        "location": {
-          "startingColumn": 31,
-          "startingLine": 147
-        }
-      },
-      {
-        "comment": "",
-        "key": "C",
-        "location": {
-          "startingColumn": 31,
-          "startingLine": 148
-        }
-      },
-      {
-        "comment": "",
-        "key": "F",
-        "location": {
-          "startingColumn": 31,
-          "startingLine": 149
-        }
-      },
-      {
-        "comment": "",
-        "key": "This Week",
-        "location": {
-          "startingColumn": 18,
-          "startingLine": 161
-        }
-      },
-      {
-        "comment": "",
-        "key": "%lld cal",
+        "key": "ADD CALORIES",
         "location": {
           "startingColumn": 26,
-          "startingLine": 196
+          "startingLine": 632
         }
       },
       {
         "comment": "",
-        "key": "%lld cal",
+        "key": "%lld kcal",
         "location": {
-          "startingColumn": 30,
-          "startingLine": 211
+          "startingColumn": 34,
+          "startingLine": 640
         }
       },
       {
         "comment": "",
-        "key": "P%lld",
+        "key": "0",
         "location": {
-          "startingColumn": 53,
-          "startingLine": 212
+          "startingColumn": 45,
+          "startingLine": 660
         }
       },
       {
         "comment": "",
-        "key": "C%lld",
+        "key": "Add calories",
         "location": {
           "startingColumn": 51,
-          "startingLine": 213
+          "startingLine": 660
         }
       },
       {
         "comment": "",
-        "key": "F%lld",
+        "key": "",
         "location": {
-          "startingColumn": 49,
-          "startingLine": 214
+          "startingColumn": 35,
+          "startingLine": 673
         }
       },
       {
         "comment": "",
-        "key": "Goal",
+        "key": "HIDE MACROS",
         "location": {
-          "startingColumn": 30,
-          "startingLine": 251
+          "startingColumn": 43,
+          "startingLine": 707
         }
       },
       {
         "comment": "",
-        "key": "Weekly Calorie Goal",
+        "key": "ADD MACROS",
         "location": {
-          "startingColumn": 25,
-          "startingLine": 247
+          "startingColumn": 59,
+          "startingLine": 707
         }
       },
       {
         "comment": "",
-        "key": "Goal",
+        "key": "THIS WEEK",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 741
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldd left",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 746
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 752
+        }
+      },
+      {
+        "comment": "",
+        "key": "/ %lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 755
+        }
+      },
+      {
+        "comment": "",
+        "key": "DAYS",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 792
+        }
+      },
+      {
+        "comment": "",
+        "key": "tap to edit",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 797
+        }
+      },
+      {
+        "comment": "",
+        "key": "MEAL PHOTO",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 829
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 834
+        }
+      },
+      {
+        "comment": "",
+        "key": "0",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 1033
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1194
+        }
+      },
+      {
+        "comment": "",
+        "key": "/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1199
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1274
+        }
+      },
+      {
+        "comment": "",
+        "key": "kcal",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1277
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add calories",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 1285
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
         "location": {
           "startingColumn": 31,
-          "startingLine": 248
+          "startingLine": 1285
         }
       },
       {
         "comment": "",
-        "key": "Save",
+        "key": "No entries yet",
         "location": {
-          "startingColumn": 28,
-          "startingLine": 254
+          "startingColumn": 34,
+          "startingLine": 1314
         }
       },
       {
         "comment": "",
-        "key": "Cancel",
+        "key": "%lld",
         "location": {
-          "startingColumn": 28,
-          "startingLine": 260
+          "startingColumn": 22,
+          "startingLine": 1371
+        }
+      },
+      {
+        "comment": "",
+        "key": "kcal",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1374
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 1363
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEEKLY GOAL",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1434
+        }
+      },
+      {
+        "comment": "",
+        "key": "kcal/wk",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1455
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 1449
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldk",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1467
+        }
+      },
+      {
+        "comment": "",
+        "key": "SAVE",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1481
+        }
+      },
+      {
+        "comment": "",
+        "key": "Log some calories to start tracking weekly wins",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1550
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEEK HISTORY",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1522
+        }
+      },
+      {
+        "comment": "",
+        "key": "Track your wins",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1526
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1647
+        }
+      },
+      {
+        "comment": "",
+        "key": "/ %lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1650
+        }
+      },
+      {
+        "comment": "",
+        "key": "TDEE CALCULATOR",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1818
+        }
+      },
+      {
+        "comment": "",
+        "key": "Burn the math",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 1822
+        }
+      },
+      {
+        "comment": "",
+        "key": "YOUR TDEE",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1873
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1879
+        }
+      },
+      {
+        "comment": "",
+        "key": "kcal/day",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1883
+        }
+      },
+      {
+        "comment": "",
+        "key": "ACTIVITY",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1916
+        }
+      },
+      {
+        "comment": "",
+        "key": "WEEKLY DEFICIT",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1964
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1974
+        }
+      },
+      {
+        "comment": "",
+        "key": "under maintenance",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 1978
+        }
+      },
+      {
+        "comment": "",
+        "key": "over maintenance",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 1978
+        }
+      },
+      {
+        "comment": "",
+        "key": "PROJECTED LOSS",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 2004
+        }
+      },
+      {
+        "comment": "",
+        "key": "PROJECTED GAIN",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 2004
         }
       }
     ]

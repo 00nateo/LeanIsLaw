@@ -4,5 +4,11 @@
 <dict>
 	<key>application-identifier</key>
 	<string>WV7UNW9M29.nateo.LeanIsLaw</string>
+	<key>com.apple.developer.kernel.increased-memory-limit</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.nateo.LeanIsLaw</string>
+	</array>
 </dict>
 </plist>

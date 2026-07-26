@@ -1,0 +1,15 @@
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/ConvenienceInitializers.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/DeclSyntaxParseable.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/Indenter.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/ListBuilder.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/ResultBuilderExtensions.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/SwiftSyntaxBuilderCompatibility.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/Syntax+StringInterpolation.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/SyntaxNodeWithBody.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/SyntaxParsable+ExpressibleByStringInterpolation.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/ValidatingSyntaxNodes.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/WithTrailingCommaSyntax+EnsuringTrailingComma.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/generated/BuildableNodes.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/generated/RenamedChildrenBuilderCompatibility.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/generated/ResultBuilders.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxBuilder/generated/SyntaxExpressibleByStringInterpolationConformances.swift

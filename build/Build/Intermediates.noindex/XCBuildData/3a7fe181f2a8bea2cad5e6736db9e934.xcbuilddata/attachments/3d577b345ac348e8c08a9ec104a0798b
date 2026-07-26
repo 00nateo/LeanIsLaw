@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/SwiftSyntax602-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/SwiftSyntax602-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/SwiftSyntax602-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/SwiftSyntax602-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/SwiftSyntax602-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/VersionMarkerModules/SwiftSyntax602/Empty.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntax602.build/Objects-normal/arm64/Empty~partial.swiftmodule"
+  }
+}

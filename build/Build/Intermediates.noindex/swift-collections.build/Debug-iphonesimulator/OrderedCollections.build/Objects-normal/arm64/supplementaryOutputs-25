@@ -1,0 +1,44 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Bucket.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Bucket.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Bucket.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Bucket.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Bucket.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Bucket.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+BucketIterator.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+BucketIterator.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+BucketIterator.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+BucketIterator.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+BucketIterator.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+BucketIterator.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Constants.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Constants.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Constants.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Constants.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Constants.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Constants.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+CustomStringConvertible.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+CustomStringConvertible.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+CustomStringConvertible.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+CustomStringConvertible.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+CustomStringConvertible.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+CustomStringConvertible.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Testing.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+Testing.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+UnsafeHandle.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/OrderedCollections.build/Objects-normal/arm64/_HashTable+UnsafeHandle.swiftdeps"
+  }
+}

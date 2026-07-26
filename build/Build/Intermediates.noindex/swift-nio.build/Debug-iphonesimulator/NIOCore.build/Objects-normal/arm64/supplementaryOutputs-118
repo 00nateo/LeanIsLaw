@@ -1,0 +1,44 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOCoreSendableMetatype.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCoreSendableMetatype.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCoreSendableMetatype.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCoreSendableMetatype.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCoreSendableMetatype.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOCoreSendableMetatype.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIODecodedAsyncSequence.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIODecodedAsyncSequence.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIODecodedAsyncSequence.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIODecodedAsyncSequence.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIODecodedAsyncSequence.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIODecodedAsyncSequence.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOLoopBound.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOLoopBound.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOPooledRecvBufferAllocator.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOPooledRecvBufferAllocator.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOScheduledCallback.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOScheduledCallback.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-nio/Sources/NIOCore/NIOSendable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-nio.build/Debug-iphonesimulator/NIOCore.build/Objects-normal/arm64/NIOSendable.swiftdeps"
+  }
+}

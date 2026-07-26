@@ -1,0 +1,30 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/RigidDeque/RigidDeque+Hashable.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Hashable.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Hashable.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Hashable.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Hashable.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Hashable.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/RigidDeque/RigidDeque+Initializers.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Initializers.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Initializers.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Initializers.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Initializers.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Initializers.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/RigidDeque/RigidDeque+Insertions.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Insertions.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Insertions.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Insertions.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Insertions.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Insertions.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-collections/Sources/DequeModule/RigidDeque/RigidDeque+Prepend.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Prepend.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Prepend.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Prepend.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Prepend.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-collections.build/Debug-iphonesimulator/DequeModule.build/Objects-normal/arm64/RigidDeque+Prepend.swiftdeps"
+  }
+}

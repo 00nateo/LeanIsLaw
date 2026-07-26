@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/steel_attention.metal \
+  /private/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.3.7003.10.ARhkgk/Metal.xctoolchain/usr/metal/32023/lib/clang/32023.864/include/metal/module.modulemap \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../utils.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../bf16.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../bf16_math.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../complex.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../defines.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../logging.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/kernels/steel_attention.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/attn.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/attn/loader.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/defines.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/attn/mma.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/attn/transforms.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/utils.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/utils/integral_constant.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/utils/../../steel/utils/type_traits.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/attn/params.h \
+  /Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-generated/metal/steel/attn/kernels/../../../steel/attn/../../steel/gemm/params.h

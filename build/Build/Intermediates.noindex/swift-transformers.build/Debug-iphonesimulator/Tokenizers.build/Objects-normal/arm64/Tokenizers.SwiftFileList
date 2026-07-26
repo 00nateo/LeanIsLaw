@@ -1,0 +1,12 @@
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/BPETokenizer.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/BertTokenizer.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/ByteEncoder.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/Decoder.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/Normalizer.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/PostProcessor.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/PreTokenizer.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/String+PreTokenization.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/TokenLattice.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/Tokenizer.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/Trie.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-transformers/Sources/Tokenizers/UnigramTokenizer.swift

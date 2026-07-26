@@ -1,0 +1,37 @@
+{
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-huggingface/Sources/HuggingFace/Hub/Organization.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Organization.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Organization.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Organization.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Organization.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Organization.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-huggingface/Sources/HuggingFace/Hub/Pagination.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Pagination.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Pagination.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Pagination.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Pagination.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Pagination.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-huggingface/Sources/HuggingFace/Hub/Paper.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Paper.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Paper.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Paper.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Paper.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Paper.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-huggingface/Sources/HuggingFace/Hub/Repo.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Repo.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Repo.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Repo.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Repo.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/Repo.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-huggingface/Sources/HuggingFace/Hub/ResourceGroup.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/ResourceGroup.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/ResourceGroup.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/ResourceGroup.dia",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/ResourceGroup.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-huggingface.build/Debug-iphonesimulator/HuggingFace.build/Objects-normal/arm64/ResourceGroup.swiftdeps"
+  }
+}

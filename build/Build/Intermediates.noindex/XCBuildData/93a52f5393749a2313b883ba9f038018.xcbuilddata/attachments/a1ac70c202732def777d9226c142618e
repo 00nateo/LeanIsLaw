@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/SwiftSyntaxMacroExpansion-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/SwiftSyntaxMacroExpansion-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/SwiftSyntaxMacroExpansion-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/SwiftSyntaxMacroExpansion-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/SwiftSyntaxMacroExpansion-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/BasicMacroExpansionContext.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/BasicMacroExpansionContext~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/FunctionParameterUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/FunctionParameterUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/IndentationUtils.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/IndentationUtils~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroArgument.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroArgument~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansion.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansion~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroExpansionDiagnosticMessages.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroExpansionDiagnosticMessages~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroReplacement.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroReplacement~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSpec.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSpec~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftSyntaxMacroExpansion/MacroSystem.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.dia",
+    "index-unit-output-path" : "/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/swift-syntax.build/Debug/SwiftSyntaxMacroExpansion.build/Objects-normal/arm64/MacroSystem~partial.swiftmodule"
+  }
+}

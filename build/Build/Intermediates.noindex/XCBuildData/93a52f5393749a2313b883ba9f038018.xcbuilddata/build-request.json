@@ -1,0 +1,71 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "a2e13dd6eb3eee8e6959d213f8512a72f3b8d590730664cbdb23af091af469da"
+    }
+  ],
+  "containerPath" : "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLaw.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator26.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/loaner/LeanIsLaw/build/Build/Products",
+      "derivedDataPath" : "/Users/loaner/LeanIsLaw/build",
+      "indexDataStoreFolderPath" : "/Users/loaner/LeanIsLaw/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/loaner/LeanIsLaw/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone17,5",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "26.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone17,5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TARGET_DEVICE_IDENTIFIER" : "D9549B2B-1355-4A63-BB2B-DB91E1B2C042",
+          "TARGET_DEVICE_MODEL" : "iPhone17,5",
+          "TARGET_DEVICE_OS_VERSION" : "26.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.Metal.32023.864 $(inherited)"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

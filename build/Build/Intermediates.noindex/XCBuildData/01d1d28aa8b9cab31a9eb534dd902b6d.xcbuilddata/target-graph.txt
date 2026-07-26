@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'LeanIsLaw' in project 'LeanIsLaw'
+➜ Explicit dependency on target 'LeanIsLawWidgetsExtension' in project 'LeanIsLaw'
+Target 'LeanIsLawWidgetsExtension' in project 'LeanIsLaw' (no dependencies)

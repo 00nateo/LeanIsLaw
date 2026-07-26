@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsExtension-primary-emit-module.dia",
+    "pch" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsExtension-primary.swiftdeps"
+  },
+  "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.dia",
+    "index-unit-output-path" : "/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgets~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgetsBundle.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.dia",
+    "index-unit-output-path" : "/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/LeanIsLawWidgetsBundle~partial.swiftmodule"
+  },
+  "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/loaner/LeanIsLaw/build/Build/Intermediates.noindex/LeanIsLaw.build/Debug-iphonesimulator/LeanIsLawWidgetsExtension.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

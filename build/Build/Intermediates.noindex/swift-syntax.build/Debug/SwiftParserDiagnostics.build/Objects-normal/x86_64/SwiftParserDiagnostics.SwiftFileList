@@ -1,0 +1,13 @@
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/DiagnosticExtensions.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/LexerDiagnosticMessages.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MissingNodesError.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MissingTokenError.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/MultiLineStringLiteralDiagnosticsGenerator.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/ParseDiagnosticsGenerator.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/ParserDiagnosticMessages.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/PresenceUtils.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/SyntaxExtensions.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/Utils.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/ChildNameForDiagnostics.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/SyntaxKindNameForDiagnostics.swift
+/Users/loaner/LeanIsLaw/build/SourcePackages/checkouts/swift-syntax/Sources/SwiftParserDiagnostics/generated/TokenNameForDiagnostics.swift

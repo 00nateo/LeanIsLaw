@@ -1,0 +1,4 @@
+module MLXHuggingFace {
+header "MLXHuggingFace-Swift.h"
+export *
+}

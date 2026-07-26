@@ -1,0 +1,485 @@
+[
+  {
+    "typeName": "LeanIsLawWidgetsExtension.WidgetMode",
+    "mangledTypeName": "25LeanIsLawWidgetsExtension10WidgetModeO",
+    "kind": "enum",
+    "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+    "line": 70,
+    "conformances": [
+      "Swift.Equatable",
+      "Swift.Hashable",
+      "Swift.RawRepresentable",
+      "AppIntents.AppEnum",
+      "AppIntents.AppValue",
+      "AppIntents.StaticDisplayRepresentable",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents.TypeDisplayRepresentable",
+      "AppIntents._IntentValue",
+      "Swift.Sendable",
+      "AppIntents.CaseDisplayRepresentable",
+      "Swift.SendableMetatype",
+      "Foundation.CustomLocalizedStringResourceConvertible",
+      "Swift.CaseIterable",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Swift.Equatable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.Hashable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.RawRepresentable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.AppEnum",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.AppValue",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.StaticDisplayRepresentable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.TypeDisplayRepresentable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents._IntentValue",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.CaseDisplayRepresentable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Foundation.CustomLocalizedStringResourceConvertible",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.CaseIterable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "RawValue",
+        "substitutedTypeName": "Swift.String",
+        "substitutedMangledTypeName": "SS"
+      },
+      {
+        "typeAliasName": "ValueType",
+        "substitutedTypeName": "LeanIsLawWidgetsExtension.WidgetMode",
+        "substitutedMangledTypeName": "25LeanIsLawWidgetsExtension10WidgetModeO"
+      },
+      {
+        "typeAliasName": "UnwrappedType",
+        "substitutedTypeName": "LeanIsLawWidgetsExtension.WidgetMode",
+        "substitutedMangledTypeName": "25LeanIsLawWidgetsExtension10WidgetModeO"
+      },
+      {
+        "typeAliasName": "Specification",
+        "substitutedTypeName": "some AppIntents.ResolverSpecification",
+        "substitutedMangledTypeName": "10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQOy25LeanIsLawWidgetsExtension10WidgetModeO_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ResolverSpecification"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "AllCases",
+        "substitutedTypeName": "Swift.Array<LeanIsLawWidgetsExtension.WidgetMode>",
+        "substitutedMangledTypeName": "Say25LeanIsLawWidgetsExtension10WidgetModeOG"
+      }
+    ],
+    "properties": [
+      {
+        "label": "typeDisplayRepresentation",
+        "type": "AppIntents.TypeDisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 74,
+        "valueKind": "RawLiteral",
+        "value": "Display Mode"
+      },
+      {
+        "label": "caseDisplayRepresentations",
+        "type": "Swift.Dictionary<LeanIsLawWidgetsExtension.WidgetMode, AppIntents.DisplayRepresentation>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 75,
+        "valueKind": "Dictionary",
+        "value": [
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "consumed"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Calories eaten"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "remaining"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Calories left today"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "allCases",
+        "type": "Swift.Array<LeanIsLawWidgetsExtension.WidgetMode>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "valueKind": "Array",
+        "value": [
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "consumed"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "remaining"
+            }
+          }
+        ]
+      },
+      {
+        "label": "rawValue",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "valueKind": "Runtime"
+      }
+    ],
+    "cases": [
+      {
+        "name": "consumed",
+        "rawValue": "consumed"
+      },
+      {
+        "name": "remaining",
+        "rawValue": "remaining"
+      }
+    ]
+  },
+  {
+    "typeName": "LeanIsLawWidgetsExtension.WidgetConfig",
+    "mangledTypeName": "25LeanIsLawWidgetsExtension12WidgetConfigV",
+    "kind": "struct",
+    "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+    "line": 81,
+    "conformances": [
+      "AppIntents.WidgetConfigurationIntent",
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.WidgetConfigurationIntent",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "LeanIsLawWidgetsExtension"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "NeverResult",
+        "substitutedTypeName": "Swift.Never",
+        "substitutedMangledTypeName": "s5NeverO"
+      },
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "Swift.Never",
+        "substitutedMangledTypeName": "s5NeverO"
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy25LeanIsLawWidgetsExtension12WidgetConfigV_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_mode",
+        "type": "AppIntents.IntentParameter<LeanIsLawWidgetsExtension.WidgetMode>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 86,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<LeanIsLawWidgetsExtension.WidgetMode>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Mode"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<LeanIsLawWidgetsExtension.WidgetMode>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "consumed"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<LeanIsLawWidgetsExtension.WidgetMode>",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 82,
+        "valueKind": "RawLiteral",
+        "value": "Lean Is Law"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 83,
+        "valueKind": "RawLiteral",
+        "value": "Choose what to show."
+      },
+      {
+        "label": "mode",
+        "type": "LeanIsLawWidgetsExtension.WidgetMode",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 86,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<LeanIsLawWidgetsExtension.WidgetMode>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Mode"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<LeanIsLawWidgetsExtension.WidgetMode>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "consumed"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<LeanIsLawWidgetsExtension.WidgetMode>",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+            "line": 85,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Mode"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<LeanIsLawWidgetsExtension.WidgetMode>",
+                "valueKind": "Enum",
+                "value": {
+                  "name": "consumed"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$mode",
+        "type": "AppIntents.IntentParameter<LeanIsLawWidgetsExtension.WidgetMode>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/loaner/LeanIsLaw/LeanIsLaw/LeanIsLawWidgets/LeanIsLawWidgets.swift",
+        "line": 86,
+        "valueKind": "Runtime"
+      }
+    ]
+  }
+]
